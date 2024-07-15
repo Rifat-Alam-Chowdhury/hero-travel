@@ -60,7 +60,7 @@ nav{
         180deg ,
          rgba(19,19,24,0.8) 0%,
           rgba(19,19,24,0) 100%),
-     url(..s/Images/Group\ 13\ \(1\)\ \(1\).png);
+     url(../Images/Group\ 13\ \(1\)\ \(1\).png);
      background-repeat: no-repeat;
      background-position: center;
 
@@ -100,11 +100,15 @@ nav{
     border-radius: 10px;
     border: none;
     letter-spacing: 0.1rem;
+    cursor: pointer;
 
 }
 
+
+
 .findme-btn button{
 
+    
     font-size: 1rem;
     padding: 1.2rem;
     margin: 0 2rem;
@@ -115,6 +119,7 @@ nav{
     letter-spacing: 0.2rem;
     color: white;
     background-color: #FF5400;
+    cursor: pointer;
    
 
 }
