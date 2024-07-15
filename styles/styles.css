@@ -46,3 +46,77 @@ nav{
 .tarvel-orange{
     color: #FF5400;
 }
+
+
+/* backgrounnd img starts here  */
+
+
+.first-img{
+    /* border: 10px solid rgb(3, 0, 6); */
+    margin: 2em 2em;
+    padding: 2cm 2em;
+    
+    background-image: linear-gradient(
+        180deg ,
+         rgba(19,19,24,0.8) 0%,
+          rgba(19,19,24,0) 100%),
+     url(../Images/Group\ 13\ \(1\)\ \(1\).png);
+     background-repeat: no-repeat;
+     background-position: center;
+
+     border-radius: 10px;
+}
+
+.explore-travel{
+    /* border: 2px solid green; */
+    color: rgb(255, 255, 255);
+    text-align: center;
+    
+}
+
+.explore-travel p{
+    /* border: 1px solid red; */
+    font-size: 10px;
+    padding: 0.4rem;
+}
+
+.whitebg-and-buttons{
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 1rem;
+    display: grid;
+    gap: 1em;
+    border-radius: 10px;
+    
+   
+    
+}
+
+
+
+.selects{
+    font-size: 1rem;
+    align-items: center;
+    padding: 0.7rem;
+    border-radius: 10px;
+    border: none;
+    letter-spacing: 0.1rem;
+
+}
+
+.findme-btn button{
+
+    font-size: 1rem;
+    padding: 1.2rem;
+    margin: 0 2rem;
+    border-radius: 10px;
+    border: none;
+    font-size: 10px;
+    text-align: center;
+    letter-spacing: 0.2rem;
+    color: white;
+    background-color: #FF5400;
+   
+
+}
+
+
