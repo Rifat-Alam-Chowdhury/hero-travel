@@ -125,3 +125,20 @@ nav{
 }
 
 
+
+
+@media screen and (max-width: 374px) and (max-height: 7429px) {
+   
+    .test{
+        display: none;
+    }
+    
+}
+
+/* Media query for larger screens */
+@media screen and (min-width: 7429px) and (min-height: 375px) {
+    .test{
+        color: #FF5400;
+    
+}
+}
