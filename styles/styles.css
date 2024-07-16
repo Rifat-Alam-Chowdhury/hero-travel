@@ -150,20 +150,23 @@ nav{
 }
 } */
 
-@media only screen and (max-width: 1080px) {
-    /* Your styles here */
+/* Styles for devices with viewport width up to Poco X3 Pro (portrait) */
+@media only screen and (max-width: 393px) {
+    /* Your styles here for portrait mode */
 
     .test{
         color: #FF5400;
     
 }
+    
   }
   
-  /* Styles specifically for Poco X3 Pro (landscape) */
-  @media only screen and (max-width: 2400px) {
-    /* Your styles here */
+  /* Styles for devices with viewport height up to Poco X3 Pro (landscape) */
+  @media only screen and (max-height: 393px) and (orientation: landscape) {
+    /* Your styles here for landscape mode */
     .test{
-        color: #1900ff;
+        color: #2d00f6;
     
 }
   }
+  
