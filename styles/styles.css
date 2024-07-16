@@ -142,3 +142,10 @@ nav{
     
 }
 }
+
+@media screen and (min-width: 700px) and (min-height: 400px) {
+    .test{
+        color: #FF5400;
+    
+}
+}
