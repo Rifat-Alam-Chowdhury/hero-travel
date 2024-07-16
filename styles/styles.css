@@ -66,8 +66,8 @@ nav{
 
      border-radius: 10px;
 }
-
 .explore-travel{
+
     /* border: 2px solid green; */
     color: rgb(255, 255, 255);
     text-align: center;
@@ -106,10 +106,10 @@ nav{
 
 
 
-.findme-btn button{
+.findme-btn a{
 
     
-    font-size: 1rem;
+    font-size: 6rem;
     padding: 1.2rem;
     margin: 0 2rem;
     border-radius: 10px;
@@ -120,53 +120,44 @@ nav{
     color: white;
     background-color: #FF5400;
     cursor: pointer;
+    text-decoration: none;
+  
    
 
 }
 
 
 
-/* 
-@media screen and (max-width: 374px) and (max-height: 7429px) {
+
+@media screen and (min-width: 7427px) 
+{
    
-    .test{
-        display: none;
+    /* .test{
+        border: 20px solid black;
+        
+        background-color: #FF5400;
+    } */
+
+    .first-img{
+        /* border: 10px solid rgb(3, 0, 6); */
+        margin: 5em 2em;
+        padding: 2cm 2em;
+        
+        background-image: linear-gradient(
+            180deg ,
+             rgba(19,19,24,0.8) 0%,
+              rgba(19,19,24,0) 100%),
+         url(../Images/Group\ 13\ \(1\)\ \(1\).png);
+         background-repeat:no-repeat ;
+         border-radius: 10px;
+         background-size: cover;
+         background-position: center;
+
+         width: 100%;
+         height: 20em;
+         
+         
     }
     
 }
 
-/* Media query for larger screens 
-@media screen and (min-width: 7429px) and (min-height: 375px) {
-    .test{
-        color: #FF5400;
-    
-}
-} */
-
-/* @media screen and (max-width: 400px) {
-    .test{
-        color: #FF5400;
-    
-}
-} */
-
-/* Styles for devices with viewport width up to Poco X3 Pro (portrait) */
-@media only screen and (max-width: 393px) {
-    /* Your styles here for portrait mode */
-
-    .test{
-        color: #FF5400;
-    
-}
-    
-  }
-  
-  /* Styles for devices with viewport height up to Poco X3 Pro (landscape) */
-  @media only screen and (max-height: 393px) and (orientation: landscape) {
-    /* Your styles here for landscape mode */
-    .test{
-        color: #2d00f6;
-    
-}
-  }
-  
