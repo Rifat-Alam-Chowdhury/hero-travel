@@ -126,7 +126,7 @@ nav{
 
 
 
-
+/* 
 @media screen and (max-width: 374px) and (max-height: 7429px) {
    
     .test{
@@ -135,17 +135,35 @@ nav{
     
 }
 
-/* Media query for larger screens */
+/* Media query for larger screens 
 @media screen and (min-width: 7429px) and (min-height: 375px) {
     .test{
         color: #FF5400;
     
 }
-}
+} */
 
-@media screen and (max-width: 850px) {
+/* @media screen and (max-width: 400px) {
     .test{
         color: #FF5400;
     
 }
+} */
+
+@media only screen and (max-width: 1080px) {
+    /* Your styles here */
+
+    .test{
+        color: #FF5400;
+    
 }
+  }
+  
+  /* Styles specifically for Poco X3 Pro (landscape) */
+  @media only screen and (max-width: 2400px) {
+    /* Your styles here */
+    .test{
+        color: #1900ff;
+    
+}
+  }
